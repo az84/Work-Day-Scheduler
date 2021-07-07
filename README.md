@@ -15,7 +15,7 @@ For this project we were required to Create a simple calendar application that w
 ***
 ## Demo:
 
-![demogif]()
+![demogif](04-Web-APIs\02-Homework\Assets\04-web-apis-homework-demo.gif)
 
 ***
 ## Description:
