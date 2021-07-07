@@ -57,6 +57,16 @@ textarea {
   color: white;
 }
 
+
+.fa-save {
+  padding: 10px;
+
+}
+
+.container {
+margin-bottom: 10%;
+}
+
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -70,13 +80,3 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-/* Styles for Save icon */
-.fa-save {
-  padding: 10px;
-
-}
-
-/* Styles for container */
-.container {
-margin-bottom: 10%;
-}
