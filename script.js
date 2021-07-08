@@ -84,7 +84,7 @@ function timeWorks() {
         $(".text10").addClass("present");
     };
     
-    time3 = moment().startOf('day').add(11, "hours");
+    time3 = moment().startOf('day').add(1, "hours");
     
     if (currentTime.isAfter(time3)) {
         $(".text11").addClass("past");
@@ -96,7 +96,7 @@ function timeWorks() {
         $(".text11").addClass("present");
     };
     
-    time4 = moment().startOf('day').add(12, "hours");
+    time4 = moment().startOf('day').add(2, "hours");
  
     if (currentTime.isAfter(time4)) {
         $(".text12").addClass("past");
@@ -108,7 +108,7 @@ function timeWorks() {
         $(".text12").addClass("present");
     };
     
-    time5 = moment().startOf('day').add(13, "hours");
+    time5 = moment().startOf('day').add(3, "hours");
    
     if (currentTime.isAfter(time5)) {
         $(".text1").addClass("past");
@@ -120,7 +120,7 @@ function timeWorks() {
         $(".text1").addClass("present");
     };
    
-    time6 = moment().startOf('day').add(14, "hours");
+    time6 = moment().startOf('day').add(4, "hours");
    
     if (currentTime.isAfter(time6)) {
         $(".text2").addClass("past");
@@ -132,7 +132,7 @@ function timeWorks() {
         $(".text2").addClass("present");
     };
   
-    time7 = moment().startOf('day').add(15, "hours");
+    time7 = moment().startOf('day').add(5, "hours");
   
     if (currentTime.isAfter(time7)) {
         $(".text3").addClass("past");
@@ -144,7 +144,7 @@ function timeWorks() {
         $(".text3").addClass("present");
     };
  
-    time8 = moment().startOf('day').add(16, "hours");
+    time8 = moment().startOf('day').add(6, "hours");
    
     if (currentTime.isAfter(time8)) {
         $(".text4").addClass("past");
@@ -156,7 +156,7 @@ function timeWorks() {
         $(".text4").addClass("present");
     };
 
-    time9 = moment().startOf('day').add(17, "hours");
+    time9 = moment().startOf('day').add(7, "hours");
     
     if (currentTime.isAfter(time9)) {
         $(".text5").addClass("past");
